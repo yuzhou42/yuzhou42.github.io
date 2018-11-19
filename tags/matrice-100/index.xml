@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matrice 100 on Yu Zhou</title>
+    <link>/tags/matrice-100/</link>
+    <description>Recent content in Matrice 100 on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Wed, 15 Mar 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/matrice-100/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GPS-Denied Vision Control of UAV</title>
+      <link>/project/gps-denied-vision-control-of-uav/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/project/gps-denied-vision-control-of-uav/</guid>
+      <description>From March 2017 to December 2018, I worked on “Project Micrathene” with a Ph.D. student who focused on controls. The objective of this project was to develop an autonomous launch, tracking and landing system for an Unmanned Aerial Vehicle (UAV). The object to track and land on was a moving ground platform, and everything was to be done without GPS.
+In this project, vision is used to estimate the pose, the translation and rotation relationship, between the UGV and the UAV.</description>
+    </item>
+    
+  </channel>
+</rss>

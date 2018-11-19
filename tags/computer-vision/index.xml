@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision on Yu Zhou</title>
+    <link>/tags/computer-vision/</link>
+    <description>Recent content in Computer Vision on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Tue, 01 May 2018 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dog-Drone</title>
+      <link>/project/dog-drone/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/project/dog-drone/</guid>
+      <description>From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project.
+The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them. My work includes the following:
+ Human detection and tracking Trajectory generation System integration  This work has resulted in papers published in the IEEE ICCA and IECON 2018.
+   Video 1. Dog-Drone demo
+At this stage, to prove the concept, we are using the off-the-shelf flight platform with a visual odometry integration.</description>
+    </item>
+    
+    <item>
+      <title>GPS-Denied Vision Control of UAV</title>
+      <link>/project/gps-denied-vision-control-of-uav/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/project/gps-denied-vision-control-of-uav/</guid>
+      <description>From March 2017 to December 2018, I worked on “Project Micrathene” with a Ph.D. student who focused on controls. The objective of this project was to develop an autonomous launch, tracking and landing system for an Unmanned Aerial Vehicle (UAV). The object to track and land on was a moving ground platform, and everything was to be done without GPS.
+In this project, vision is used to estimate the pose, the translation and rotation relationship, between the UGV and the UAV.</description>
+    </item>
+    
+    <item>
+      <title>Laser Camera Fusion</title>
+      <link>/project/laser-camera-calibration/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/project/laser-camera-calibration/</guid>
+      <description>This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems to provide laser points with color information from the image for further applications such as segmentation.
+The QR code board was used as a marker, which could be detected in both point clouds and image. I matched the center point pair of the QR code from the 2D points in the image and that of the 3D points in laser coordinates, and used the PnP method to get the relation between the two coordinates.</description>
+    </item>
+    
+    <item>
+      <title>Unmanned Ground Systems Challenge</title>
+      <link>/project/unmanned-ground-systems-challenge/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/unmanned-ground-systems-challenge/</guid>
+      <description>Along with 3 other teammates from the State Key Laboratory of Robotics, I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation.
+This challenge was held in a real field environment, including wild battlefield task execution, city battlefield search and investigation, and highland transportation.
+Fig. 1. Our UGV platform
+Environment Map Built an environment map for non-structured fields with the following steps:</description>
+    </item>
+    
+    <item>
+      <title>The International Unmanned Aerial Vehicle Grand Prix</title>
+      <link>/project/unmanned-aerial-vehicle-grand-prix/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/project/unmanned-aerial-vehicle-grand-prix/</guid>
+      <description>Along with 4 other teammates from the State Key Laboratory of Robotics, I participated in the 3rd International Unmanned Aerial Vehicle Grand Prix, held at the end of October 2015. The task of this competition was to accomplish the autonomous cargo transportation task with a UAV. There were two moving platforms: both had four markers and one had 4 buckets placed on it. The UAV had to transport buckets between the two moving platforms, as shown on Figure 1.</description>
+    </item>
+    
+  </channel>
+</rss>

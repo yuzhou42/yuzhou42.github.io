@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Laser on Yu Zhou</title>
+    <link>/tags/laser/</link>
+    <description>Recent content in Laser on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/laser/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Laser Camera Fusion</title>
+      <link>/project/laser-camera-calibration/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/project/laser-camera-calibration/</guid>
+      <description>This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems to provide laser points with color information from the image for further applications such as segmentation.
+The QR code board was used as a marker, which could be detected in both point clouds and image. I matched the center point pair of the QR code from the 2D points in the image and that of the 3D points in laser coordinates, and used the PnP method to get the relation between the two coordinates.</description>
+    </item>
+    
+  </channel>
+</rss>

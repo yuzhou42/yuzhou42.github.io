@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensor Fusion on Yu Zhou</title>
+    <link>/tags/sensor-fusion/</link>
+    <description>Recent content in Sensor Fusion on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/sensor-fusion/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Laser Camera Fusion</title>
+      <link>/project/laser-camera-calibration/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/project/laser-camera-calibration/</guid>
+      <description>This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems to provide laser points with color information from the image for further applications such as segmentation.
+The QR code board was used as a marker, which could be detected in both point clouds and image. I matched the center point pair of the QR code from the 2D points in the image and that of the 3D points in laser coordinates, and used the PnP method to get the relation between the two coordinates.</description>
+    </item>
+    
+    <item>
+      <title>Error State Kalman Filter</title>
+      <link>/project/eskf/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/eskf/</guid>
+      <description>The error-state Kalman filter (ESKF) is one of the tools we may use for combining IMU with magnetometer data to obtain a robust attitude estimation. It has many benefits such as avoiding issues related to over-parameterization and the consequent risk of the singularity of the involved covariance matrices. The formulation of the ESKF algorithm used for attitude estimation is as follows:
+Fig.1. Error-State Kalman Filter 1 Fig.2. Error-State Kalman Filter 2</description>
+    </item>
+    
+  </channel>
+</rss>

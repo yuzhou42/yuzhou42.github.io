@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QT on Yu Zhou</title>
+    <link>/tags/qt/</link>
+    <description>Recent content in QT on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/qt/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UAV GCS for Agriculture Irrigation</title>
+      <link>/project/uav-gcs/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/project/uav-gcs/</guid>
+      <description>This is a UAV ground station software designed for agriculture irrigation with functions such as information monitoring, UAV parameter setup, sensor calibration, and specific irrigation parameter setup.
+  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Yu Zhou</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Academic</title>
+      <link>/tags/academic/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/academic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autonomous Robot</title>
+      <link>/tags/autonomous-robot/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/autonomous-robot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Vision</title>
+      <link>/tags/computer-vision/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DJI SDK</title>
+      <link>/tags/dji-sdk/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/dji-sdk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GCS</title>
+      <link>/tags/gcs/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/gcs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Human Tracking</title>
+      <link>/tags/human-tracking/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/human-tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>IMU</title>
+      <link>/tags/imu/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/imu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Laser</title>
+      <link>/tags/laser/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/laser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Localization</title>
+      <link>/tags/localization/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/localization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matrice 100</title>
+      <link>/tags/matrice-100/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/matrice-100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pixhawk</title>
+      <link>/tags/pixhawk/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/pixhawk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>QT</title>
+      <link>/tags/qt/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/qt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>/tags/ros/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/ros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Robotics</title>
+      <link>/tags/robotics/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/robotics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sensor Fusion</title>
+      <link>/tags/sensor-fusion/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/sensor-fusion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UAV</title>
+      <link>/tags/uav/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/uav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UGV</title>
+      <link>/tags/ugv/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/ugv/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Guidance</title>
+      <link>/tags/visual-guidance/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/tags/visual-guidance/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

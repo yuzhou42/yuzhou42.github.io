@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UGV on Yu Zhou</title>
+    <link>/tags/ugv/</link>
+    <description>Recent content in UGV on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/ugv/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unmanned Ground Systems Challenge</title>
+      <link>/project/unmanned-ground-systems-challenge/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/unmanned-ground-systems-challenge/</guid>
+      <description>Along with 3 other teammates from the State Key Laboratory of Robotics, I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation.
+This challenge was held in a real field environment, including wild battlefield task execution, city battlefield search and investigation, and highland transportation.
+Fig. 1. Our UGV platform
+Environment Map Built an environment map for non-structured fields with the following steps:</description>
+    </item>
+    
+  </channel>
+</rss>

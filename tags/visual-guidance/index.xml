@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visual Guidance on Yu Zhou</title>
+    <link>/tags/visual-guidance/</link>
+    <description>Recent content in Visual Guidance on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Thu, 01 Oct 2015 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/visual-guidance/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The International Unmanned Aerial Vehicle Grand Prix</title>
+      <link>/project/unmanned-aerial-vehicle-grand-prix/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      
+      <guid>/project/unmanned-aerial-vehicle-grand-prix/</guid>
+      <description>Along with 4 other teammates from the State Key Laboratory of Robotics, I participated in the 3rd International Unmanned Aerial Vehicle Grand Prix, held at the end of October 2015. The task of this competition was to accomplish the autonomous cargo transportation task with a UAV. There were two moving platforms: both had four markers and one had 4 buckets placed on it. The UAV had to transport buckets between the two moving platforms, as shown on Figure 1.</description>
+    </item>
+    
+  </channel>
+</rss>

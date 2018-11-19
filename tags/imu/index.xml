@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>IMU on Yu Zhou</title>
+    <link>/tags/imu/</link>
+    <description>Recent content in IMU on Yu Zhou</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
+    <lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="/tags/imu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Error State Kalman Filter</title>
+      <link>/project/eskf/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      
+      <guid>/project/eskf/</guid>
+      <description>The error-state Kalman filter (ESKF) is one of the tools we may use for combining IMU with magnetometer data to obtain a robust attitude estimation. It has many benefits such as avoiding issues related to over-parameterization and the consequent risk of the singularity of the involved covariance matrices. The formulation of the ESKF algorithm used for attitude estimation is as follows:
+Fig.1. Error-State Kalman Filter 1 Fig.2. Error-State Kalman Filter 2</description>
+    </item>
+    
+  </channel>
+</rss>
