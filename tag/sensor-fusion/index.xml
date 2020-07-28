@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sensor Fusion | Yu Zhou</title>
+    <link>/tag/sensor-fusion/</link>
+      <atom:link href="/tag/sensor-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sensor Fusion</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Sensor Fusion</title>
+      <link>/tag/sensor-fusion/</link>
+    </image>
+    
+    <item>
+      <title>Laser Camera Fusion</title>
+      <link>/post/laser-camera-calibration/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <guid>/post/laser-camera-calibration/</guid>
+      <description>&lt;p&gt;This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems
+to provide laser points with color information from the image for further applications such as segmentation.&lt;/p&gt;
+&lt;p&gt;The QR code board was used as a marker, which could be detected in both point clouds and image.
+I matched the center point pair of the QR code from the 2D points in the image and that of the 3D points in laser coordinates,
+and used the PnP method to get the relation between the two coordinates.
+The calibration procedure and fusion results are shown on Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured1.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Calibration Procedure&lt;center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9jwvK2DOzgU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 1. Fusion results&lt;center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ihkgXOpipxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 2. Fusion results&lt;center&gt;</description>
+    </item>
+    
+    <item>
+      <title>Error State Kalman Filter</title>
+      <link>/post/eskf/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <guid>/post/eskf/</guid>
+      <description>&lt;p&gt;The error-state Kalman filter (ESKF) is one of the tools we may use for
+combining IMU with magnetometer data to obtain a robust attitude estimation.
+It has many benefits such as avoiding issues related to over-parameterization and the consequent risk of the singularity
+of the involved covariance matrices.
+The formulation of the ESKF algorithm used for attitude estimation is as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide12.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.1. Error-State Kalman Filter 1&lt;/center&gt;
+![This is an image](Slide13.png)
+&lt;center&gt;Fig.2. Error-State Kalman Filter 2&lt;/center&gt;
+&lt;p&gt;Below are results of the ESKF for roll, pitch, and yaw angles.
+The red line represents the estimation values, and the green is the ground truth.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.3. Roll&lt;/center&gt;
+&lt;p&gt;&lt;img src=&#34;eskf_2.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.4. Pitch&lt;/center&gt;
+&lt;p&gt;&lt;img src=&#34;eskf_3.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.5. Yaw&lt;/center&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

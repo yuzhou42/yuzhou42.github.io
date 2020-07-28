@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QT | Yu Zhou</title>
+    <link>/tag/qt/</link>
+      <atom:link href="/tag/qt/index.xml" rel="self" type="application/rss+xml" />
+    <description>QT</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>QT</title>
+      <link>/tag/qt/</link>
+    </image>
+    
+    <item>
+      <title>UAV GCS for Agriculture Irrigation</title>
+      <link>/post/uav-gcs/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      <guid>/post/uav-gcs/</guid>
+      <description>&lt;p&gt;This is a UAV ground station software designed for agriculture irrigation with functions such as information monitoring, UAV parameter setup, sensor calibration, and specific irrigation parameter setup.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8a9DuZseNoI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

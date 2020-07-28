@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Vision | Yu Zhou</title>
+    <link>/tag/computer-vision/</link>
+      <atom:link href="/tag/computer-vision/index.xml" rel="self" type="application/rss+xml" />
+    <description>Computer Vision</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Computer Vision</title>
+      <link>/tag/computer-vision/</link>
+    </image>
+    
+    <item>
+      <title>Dog-Drone</title>
+      <link>/project/dog-drone/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      <guid>/project/dog-drone/</guid>
+      <description>&lt;p&gt;From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project.&lt;br&gt;
+The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them.
+My work includes the following:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Human detection and tracking&lt;/li&gt;
+&lt;li&gt;Trajectory generation&lt;/li&gt;
+&lt;li&gt;System integration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This work has resulted in papers published in the IEEE ICCA and IECON 2018.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/kSz1FB7mgqU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Dog-Drone demo&lt;/center&gt;
+&lt;p&gt;At this stage, to prove the concept, we are using the off-the-shelf flight platform with a visual odometry integration.
+Right now we have built our drone platform CT-Line due to the limitation of the commercial product and
+have conducted tests of flying multiple drones aggressively in an indoor environment.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GPS-Denied Vision Control of UAV</title>
+      <link>/project/gps-denied-vision-control-of-uav/</link>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
+      <guid>/project/gps-denied-vision-control-of-uav/</guid>
+      <description>&lt;p&gt;From March 2017 to December 2018, I worked on “Project Micrathene” with a Ph.D. student who focused on controls.
+The objective of this project was to develop an autonomous launch, tracking and landing system for an Unmanned Aerial Vehicle (UAV).
+The object to track and land on was a moving ground platform, and everything was to be done without GPS.&lt;/p&gt;
+&lt;p&gt;In this project, vision is used to estimate the pose,
+the translation and rotation relationship, between the UGV and the UAV.
+The pose was used for flight control during different states of the UAV.&lt;/p&gt;
+&lt;p&gt;The hardware platform contains:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DJI Matrice 100 fly platform&lt;/li&gt;
+&lt;li&gt;Point Grey Chameleon 3 camera&lt;/li&gt;
+&lt;li&gt;NUC onboard computer.&lt;/li&gt;
+&lt;li&gt;Omnidirectional mobility platform&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Communication between the onboard and offboard computer is established over Wi-Fi.&lt;/p&gt;
+&lt;p&gt;The software involves:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ubuntu&lt;/li&gt;
+&lt;li&gt;ROS Kinetic&lt;/li&gt;
+&lt;li&gt;OpenCV&lt;/li&gt;
+&lt;li&gt;DJI SDK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;Slide2.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Hardware and Software Platform&lt;/center&gt;
+&lt;p&gt;A marker was designed to obtain the relative pose between the UAV and the UGV platform.
+There are four coordinate systems: image, camera, marker and UAV.
+The transformation matrix between different coordinate systems is shown on Figure 2.
+n order to control the UAV, the pose between the camera and the marker, which is [R2 t2], has to be calculated with the PnP method.
+The pose between the UAV and the moving platform can then be obtained through another coordinate transform.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide3.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 2. Transformation matrix&lt;/center&gt;
+&lt;p&gt;The software design of this project is shown on Figure 3:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Obtain undistorted images through image processing;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Send these images to the marker detection process to get the camera pose w.r.t. the marker;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In the main process, a state machine was run to process all the data and commands,
+including the pose between the moving platform and the UAV, sensor data from DJI SDK and the command from the off-board computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&#34;Slide4.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 3. Software design&lt;/center&gt;
+&lt;p&gt;The final demonstration is shown in the following video:
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cIJGd6TkZRM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;center&gt;Demo Video&lt;/center&gt;</description>
+    </item>
+    
+    <item>
+      <title>Laser Camera Fusion</title>
+      <link>/post/laser-camera-calibration/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <guid>/post/laser-camera-calibration/</guid>
+      <description>&lt;p&gt;This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems
+to provide laser points with color information from the image for further applications such as segmentation.&lt;/p&gt;
+&lt;p&gt;The QR code board was used as a marker, which could be detected in both point clouds and image.
+I matched the center point pair of the QR code from the 2D points in the image and that of the 3D points in laser coordinates,
+and used the PnP method to get the relation between the two coordinates.
+The calibration procedure and fusion results are shown on Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured1.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Calibration Procedure&lt;center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9jwvK2DOzgU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 1. Fusion results&lt;center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ihkgXOpipxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 2. Fusion results&lt;center&gt;</description>
+    </item>
+    
+    <item>
+      <title>Unmanned Ground Systems Challenge</title>
+      <link>/project/unmanned-ground-systems-challenge/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <guid>/project/unmanned-ground-systems-challenge/</guid>
+      <description>&lt;p&gt;Along with 3 other teammates from the 
+&lt;a href=&#34;http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;State Key Laboratory of Robotics&lt;/a&gt;,
+I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map
+building and localization under GPS signal lost situation.&lt;/p&gt;
+&lt;p&gt;This challenge was held in a real field environment,
+including wild battlefield task execution,
+city battlefield search and investigation, and highland transportation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;ugv_1.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Our UGV platform&lt;/center&gt;
+&lt;h3 id=&#34;environment-map&#34;&gt;Environment Map&lt;/h3&gt;
+&lt;p&gt;Built an environment map for non-structured fields with the following steps:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide6.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 2. Environment Map BUilding Procedure&lt;/center&gt;
+&lt;p&gt;The laser data was collected from different lasers: single-line, 32-line, and 64-line.
+The data was fused after calibration and having manually filled certain points.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide7.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 3. Fuse Laser Data&lt;/center&gt;
+&lt;p&gt;A road plane was fitted with a RANSAC method.
+&lt;img src=&#34;Slide8.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 4. Point Clouds Segmentation&lt;/center&gt;
+&lt;p&gt;The grid map was built with the help of the 
+&lt;a href=&#34;https://github.com/ANYbotics/grid_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;grid_map&lt;/a&gt; package.
+Finally, the road target was extracted through road skeleton extraction from the image generated from the environment map.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide9.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 5. Road Target Extraction&lt;/center&gt;
+&lt;p&gt;Thus, we obtained all the perception information needed to drive a car intelligently in a field environment.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/AUbdU3WGoK8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;**Obstacle Avoidance Demo**&lt;/center&gt;
+&lt;h3 id=&#34;localization-without-gps&#34;&gt;Localization without GPS&lt;/h3&gt;
+&lt;p&gt;Two methods were conducted to meet the requirements.&lt;/p&gt;
+&lt;h4 id=&#34;1-visual-inertial-odometry&#34;&gt;1. Visual Inertial Odometry&lt;/h4&gt;
+&lt;p&gt;I did this by combining the orb slam with IMU.
+&lt;img src=&#34;Slide10.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 6. Visual Inertial Odometry&lt;/center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/RRAzWU1_SSE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h4 id=&#34;2-laser-odometry&#34;&gt;2. Laser Odometry&lt;/h4&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/c0VvjAZcUNo&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>The International Unmanned Aerial Vehicle Grand Prix</title>
+      <link>/project/unmanned-aerial-vehicle-grand-prix/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      <guid>/project/unmanned-aerial-vehicle-grand-prix/</guid>
+      <description>&lt;p&gt;Along with 4 other teammates from the 
+&lt;a href=&#34;http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;State Key Laboratory of Robotics&lt;/a&gt;,
+I participated in the 3rd International Unmanned Aerial Vehicle Grand Prix,
+held at the end of October 2015.
+The task of this competition was to accomplish the autonomous cargo transportation task with a UAV.
+There were two moving platforms:
+both had four markers and one had 4 buckets placed on it.
+The UAV had to transport buckets between the two moving platforms, as shown on Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide15.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Unmanned Aerial Vehicle Grand Prix&lt;/center&gt;
+&lt;p&gt;I worked specifically on the visual guidance design.
+Our team finished 2nd out of 20 teams in total.
+The vision-based guidance work can be divided into 2 parts:
+ellipse detection and position estimation.&lt;/p&gt;
+&lt;h4 id=&#34;ellipse-detection&#34;&gt;Ellipse detection&lt;/h4&gt;
+&lt;p&gt;The ellipse detection algorithm is divided into two parts: whole ellipse detection and partial ellipse detection.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Whole ellipse detection&lt;/p&gt;
+&lt;p&gt;Once we have a new image, we need to get all the contours in that image through edge detection.
+Then, we calculate the AMIs (Affine Moment Invariants) to see if the contours form an ellipse.
+As all circles and ellipse have the same AMIs theoretical value,
+the contour satisfying the theoretical value can be considered as an ellipse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Partial ellipse detection&lt;/p&gt;
+&lt;p&gt;It is common that only parts of the ellipse can be seen by a digital camera due to the limited field of view,
+and the whole ellipse detection method cannot detect this sort of ellipse.
+We then used a robust method to detect partial ellipses in the image.
+First, we computed the convex hull for each contour that is not classified as a whole ellipse,
+then fitted ellipses for each convex hull,
+while computing the algebraic error between the convex hulls and the fitted ellipses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;position-estimation&#34;&gt;Position estimation&lt;/h4&gt;
+&lt;p&gt;Position estimation helped us get the relative position between the circle markers and the UAV,
+that we leveraged to track the circle to navigate the UAV.
+It involved three coordinate frames: world, camera and image.
+The principle is that we have some known coordinate point in the world frame and its corresponding coordinate point in the image frame.
+We then use the DLT to get the transformation between the two coordinate frames and thus obtain the position estimation.&lt;/p&gt;
+&lt;p&gt;Here, we make the word frame’s center as the circle center,
+with the Z-axis of the word frame orthogonal to the circle plane.
+Thus, the four points on the world frame are evenly distributed on the circle as the diameter of the circle is known.
+Ellipse detection then yields four corresponding points in the image:
+we can thus estimate the rotation and transformation matrices between the circle markers and the UAV, which we use to control the UAV.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide16.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 2. Detection Results&lt;/center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/3368_Q3Q8q0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 1. Indoor testing&lt;/center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0SGRLABnbwc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 2. Competition day&lt;/center&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

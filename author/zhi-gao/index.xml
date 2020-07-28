@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhi Gao | Yu Zhou</title>
+    <link>/author/zhi-gao/</link>
+      <atom:link href="/author/zhi-gao/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhi Gao</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Zhi Gao</title>
+      <link>/author/zhi-gao/</link>
+    </image>
+    
+    <item>
+      <title>Toward Autonomy of Micro Aerial Vehicles in Unknown and Global Positioning System Denied Environments</title>
+      <link>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,26 +1,115 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Yu Zhou</title>
+    <title>Posts | Yu Zhou</title>
     <link>/post/</link>
-    <description>Recent content in Posts on Yu Zhou</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Thu, 18 Jun 2020 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Posts</title>
+      <link>/post/</link>
+    </image>
     
     <item>
-      <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>/post/getting-started/</guid>
-      <description>Academic makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.
-Follow our easy step by step guide to learn how to build your own free website with Academic. Check out the personal demo or the business demo of what you&amp;rsquo;ll get in less than 10 minutes.
- View the documentation Ask a question Request a feature or report a bug Updating?</description>
+      <title>The Front End of SLAM</title>
+      <link>/post/vio-talk/</link>
+      <pubDate>Thu, 18 Jun 2020 13:00:00 +0000</pubDate>
+      <guid>/post/vio-talk/</guid>
+      <description>&lt;!-- &lt;embed src=&#34;SLAM_VIO_Toturial.pdf&#34; width=&#34;500&#34; height=&#34;375&#34;&gt; --&gt;
+&lt;!-- &lt;embed src=&#34;SLAM_VIO_Toturial.pdf&#34; width=&#34;500&#34; height=&#34;375&#34; 
+ type=&#34;application/pdf&#34;&gt; --&gt;
+&lt;p&gt;I recently gave a tutorial talk on the front-end of visual-inertial odometry. Check it out by clicking the pdf label on top of the page!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Robot web-based user interface</title>
+      <link>/post/robot_web_ui/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0800</pubDate>
+      <guid>/post/robot_web_ui/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;overview&lt;/h3&gt;
+&lt;p&gt;Ｔhis is for web-based UI shown as the image. It can connect to multiple drones by their IP address and show status of each drone, such as positon, image, healthy status etc. User can sent commands (takeoff, mission, swarm, hover, landing) to drone directly from the UI. Moreover, a Google map is inserted to show realtime location and trajectory of the drones.&lt;/p&gt;
+&lt;h3 id=&#34;tutorials-and-useful-websites&#34;&gt;Tutorials and useful websites&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/husarion-blog/bootstrap-4-ros-creating-a-web-ui-for-your-robot-9a77a8e373f9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bootstrap 4 + ROS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.w3schools.com/bootstrap4/default.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bootstrap 4 Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://robotwebtools.org/tools.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ROBOTWEBTOOLS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://bootswatch.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.rapidtables.com/web/color/html-color-codes.htmls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML color code&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Laser Camera Fusion</title>
+      <link>/post/laser-camera-calibration/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <guid>/post/laser-camera-calibration/</guid>
+      <description>&lt;p&gt;This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems
+to provide laser points with color information from the image for further applications such as segmentation.&lt;/p&gt;
+&lt;p&gt;The QR code board was used as a marker, which could be detected in both point clouds and image.
+I matched the center point pair of the QR code from the 2D points in the image and that of the 3D points in laser coordinates,
+and used the PnP method to get the relation between the two coordinates.
+The calibration procedure and fusion results are shown on Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured1.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Calibration Procedure&lt;center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/9jwvK2DOzgU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 1. Fusion results&lt;center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/ihkgXOpipxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 2. Fusion results&lt;center&gt;</description>
+    </item>
+    
+    <item>
+      <title>Error State Kalman Filter</title>
+      <link>/post/eskf/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <guid>/post/eskf/</guid>
+      <description>&lt;p&gt;The error-state Kalman filter (ESKF) is one of the tools we may use for
+combining IMU with magnetometer data to obtain a robust attitude estimation.
+It has many benefits such as avoiding issues related to over-parameterization and the consequent risk of the singularity
+of the involved covariance matrices.
+The formulation of the ESKF algorithm used for attitude estimation is as follows:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide12.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.1. Error-State Kalman Filter 1&lt;/center&gt;
+![This is an image](Slide13.png)
+&lt;center&gt;Fig.2. Error-State Kalman Filter 2&lt;/center&gt;
+&lt;p&gt;Below are results of the ESKF for roll, pitch, and yaw angles.
+The red line represents the estimation values, and the green is the ground truth.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.3. Roll&lt;/center&gt;
+&lt;p&gt;&lt;img src=&#34;eskf_2.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.4. Pitch&lt;/center&gt;
+&lt;p&gt;&lt;img src=&#34;eskf_3.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig.5. Yaw&lt;/center&gt;</description>
+    </item>
+    
+    <item>
+      <title>UAV GCS for Agriculture Irrigation</title>
+      <link>/post/uav-gcs/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      <guid>/post/uav-gcs/</guid>
+      <description>&lt;p&gt;This is a UAV ground station software designed for agriculture irrigation with functions such as information monitoring, UAV parameter setup, sensor calibration, and specific irrigation parameter setup.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/8a9DuZseNoI&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
   </channel>

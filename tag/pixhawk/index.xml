@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pixhawk | Yu Zhou</title>
+    <link>/tag/pixhawk/</link>
+      <atom:link href="/tag/pixhawk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Pixhawk</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Thu, 01 Oct 2015 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Pixhawk</title>
+      <link>/tag/pixhawk/</link>
+    </image>
+    
+    <item>
+      <title>The International Unmanned Aerial Vehicle Grand Prix</title>
+      <link>/project/unmanned-aerial-vehicle-grand-prix/</link>
+      <pubDate>Thu, 01 Oct 2015 00:00:00 +0800</pubDate>
+      <guid>/project/unmanned-aerial-vehicle-grand-prix/</guid>
+      <description>&lt;p&gt;Along with 4 other teammates from the 
+&lt;a href=&#34;http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;State Key Laboratory of Robotics&lt;/a&gt;,
+I participated in the 3rd International Unmanned Aerial Vehicle Grand Prix,
+held at the end of October 2015.
+The task of this competition was to accomplish the autonomous cargo transportation task with a UAV.
+There were two moving platforms:
+both had four markers and one had 4 buckets placed on it.
+The UAV had to transport buckets between the two moving platforms, as shown on Figure 1.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide15.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 1. Unmanned Aerial Vehicle Grand Prix&lt;/center&gt;
+&lt;p&gt;I worked specifically on the visual guidance design.
+Our team finished 2nd out of 20 teams in total.
+The vision-based guidance work can be divided into 2 parts:
+ellipse detection and position estimation.&lt;/p&gt;
+&lt;h4 id=&#34;ellipse-detection&#34;&gt;Ellipse detection&lt;/h4&gt;
+&lt;p&gt;The ellipse detection algorithm is divided into two parts: whole ellipse detection and partial ellipse detection.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Whole ellipse detection&lt;/p&gt;
+&lt;p&gt;Once we have a new image, we need to get all the contours in that image through edge detection.
+Then, we calculate the AMIs (Affine Moment Invariants) to see if the contours form an ellipse.
+As all circles and ellipse have the same AMIs theoretical value,
+the contour satisfying the theoretical value can be considered as an ellipse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Partial ellipse detection&lt;/p&gt;
+&lt;p&gt;It is common that only parts of the ellipse can be seen by a digital camera due to the limited field of view,
+and the whole ellipse detection method cannot detect this sort of ellipse.
+We then used a robust method to detect partial ellipses in the image.
+First, we computed the convex hull for each contour that is not classified as a whole ellipse,
+then fitted ellipses for each convex hull,
+while computing the algebraic error between the convex hulls and the fitted ellipses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;position-estimation&#34;&gt;Position estimation&lt;/h4&gt;
+&lt;p&gt;Position estimation helped us get the relative position between the circle markers and the UAV,
+that we leveraged to track the circle to navigate the UAV.
+It involved three coordinate frames: world, camera and image.
+The principle is that we have some known coordinate point in the world frame and its corresponding coordinate point in the image frame.
+We then use the DLT to get the transformation between the two coordinate frames and thus obtain the position estimation.&lt;/p&gt;
+&lt;p&gt;Here, we make the word frame’s center as the circle center,
+with the Z-axis of the word frame orthogonal to the circle plane.
+Thus, the four points on the world frame are evenly distributed on the circle as the diameter of the circle is known.
+Ellipse detection then yields four corresponding points in the image:
+we can thus estimate the rotation and transformation matrices between the circle markers and the UAV, which we use to control the UAV.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Slide16.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;center&gt;Fig. 2. Detection Results&lt;/center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/3368_Q3Q8q0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 1. Indoor testing&lt;/center&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/0SGRLABnbwc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Video 2. Competition day&lt;/center&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

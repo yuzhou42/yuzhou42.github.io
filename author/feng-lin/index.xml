@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Feng Lin | Yu Zhou</title>
+    <link>/author/feng-lin/</link>
+      <atom:link href="/author/feng-lin/index.xml" rel="self" type="application/rss+xml" />
+    <description>Feng Lin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Feng Lin</title>
+      <link>/author/feng-lin/</link>
+    </image>
+    
+    <item>
+      <title>Toward Autonomy of Micro Aerial Vehicles in Unknown and Global Positioning System Denied Environments</title>
+      <link>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development of Nano UAV Platform for Navigation in Gps Denied Environment Using Snapdragon</title>
+      <link>/publication/development-of-nano-uav-platform-for-navigation-in-gps-denied-environment-using-snapdragon/</link>
+      <pubDate>Mon, 22 Oct 2018 21:44:14 +0800</pubDate>
+      <guid>/publication/development-of-nano-uav-platform-for-navigation-in-gps-denied-environment-using-snapdragon/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Target Detection and Tracking Framework Using Deep Convolutional Neural Networks for Micro Aerial Vehicles</title>
+      <link>/publication/visual-target-detection-and-tracking-framework-using-deep-convolutional-neural-networks-for-micro-aerial-vehicles/</link>
+      <pubDate>Fri, 22 Jun 2018 21:44:14 +0800</pubDate>
+      <guid>/publication/visual-target-detection-and-tracking-framework-using-deep-convolutional-neural-networks-for-micro-aerial-vehicles/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

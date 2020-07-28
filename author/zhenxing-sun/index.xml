@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zhenxing Sun | Yu Zhou</title>
+    <link>/author/zhenxing-sun/</link>
+      <atom:link href="/author/zhenxing-sun/index.xml" rel="self" type="application/rss+xml" />
+    <description>Zhenxing Sun</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Fri, 01 Jun 2018 21:44:14 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Zhenxing Sun</title>
+      <link>/author/zhenxing-sun/</link>
+    </image>
+    
+    <item>
+      <title>Decentralized robust exact tracking control for 2-DOF planar robot manipulator</title>
+      <link>/publication/decentralized-robust-exact-tracking-control-for-2-dof-planar-robot-manipulator/</link>
+      <pubDate>Fri, 01 Jun 2018 21:44:14 +0800</pubDate>
+      <guid>/publication/decentralized-robust-exact-tracking-control-for-2-dof-planar-robot-manipulator/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

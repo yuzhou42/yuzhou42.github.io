@@ -1,50 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Yu Zhou</title>
+    <title>Publications | Yu Zhou</title>
     <link>/publication/</link>
-    <description>Recent content in Publications on Yu Zhou</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; 2018 Yu Zhou</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Sun, 28 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>/publication/</link>
+    </image>
     
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toward Autonomy of Micro Aerial Vehicles in Unknown and Global Positioning System Denied Environments</title>
+      <link>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</link>
+      <pubDate>Sun, 28 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</guid>
+      <description></description>
+    </item>
     
+    <item>
+      <title>Low-cost camera based sense and avoid in unmanned aerial vehicles: sensing and control methods</title>
+      <link>/publication/low-cost-camera-based-sense-and-avoid-in-unmanned-aerial-vehicles-sensing-and-control-methods/</link>
+      <pubDate>Tue, 02 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>/publication/low-cost-camera-based-sense-and-avoid-in-unmanned-aerial-vehicles-sensing-and-control-methods/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Development of Nano UAV Platform for Navigation in Gps Denied Environment Using Snapdragon</title>
-      <link>/publication/1/1/</link>
+      <link>/publication/development-of-nano-uav-platform-for-navigation-in-gps-denied-environment-using-snapdragon/</link>
       <pubDate>Mon, 22 Oct 2018 21:44:14 +0800</pubDate>
-      
-      <guid>/publication/1/1/</guid>
+      <guid>/publication/development-of-nano-uav-platform-for-navigation-in-gps-denied-environment-using-snapdragon/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visual Target Detection and Tracking Framework Using Deep Convolutional Neural Networks for Micro Aerial Vehicles</title>
-      <link>/publication/3/1/</link>
+      <link>/publication/visual-target-detection-and-tracking-framework-using-deep-convolutional-neural-networks-for-micro-aerial-vehicles/</link>
       <pubDate>Fri, 22 Jun 2018 21:44:14 +0800</pubDate>
-      
-      <guid>/publication/3/1/</guid>
+      <guid>/publication/visual-target-detection-and-tracking-framework-using-deep-convolutional-neural-networks-for-micro-aerial-vehicles/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Decentralized robust exact tracking control for 2-DOF planar robot manipulator</title>
-      <link>/publication/2/1/</link>
+      <link>/publication/decentralized-robust-exact-tracking-control-for-2-dof-planar-robot-manipulator/</link>
       <pubDate>Fri, 01 Jun 2018 21:44:14 +0800</pubDate>
-      
-      <guid>/publication/2/1/</guid>
+      <guid>/publication/decentralized-robust-exact-tracking-control-for-2-dof-planar-robot-manipulator/</guid>
       <description></description>
     </item>
     
     <item>
       <title>A robust real-time vision based GPS-denied navigation system of UAV</title>
-      <link>/publication/4/1/</link>
+      <link>/publication/a-robust-real-time-vision-based-gps-denied-navigation-system-of-uav/</link>
       <pubDate>Wed, 22 Jun 2016 21:44:14 +0800</pubDate>
-      
-      <guid>/publication/4/1/</guid>
+      <guid>/publication/a-robust-real-time-vision-based-gps-denied-navigation-system-of-uav/</guid>
       <description></description>
     </item>
     

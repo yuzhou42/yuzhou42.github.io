@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>web-based UI | Yu Zhou</title>
+    <link>/tag/web-based-ui/</link>
+      <atom:link href="/tag/web-based-ui/index.xml" rel="self" type="application/rss+xml" />
+    <description>web-based UI</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>web-based UI</title>
+      <link>/tag/web-based-ui/</link>
+    </image>
+    
+    <item>
+      <title>Robot web-based user interface</title>
+      <link>/post/robot_web_ui/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0800</pubDate>
+      <guid>/post/robot_web_ui/</guid>
+      <description>&lt;h3 id=&#34;overview&#34;&gt;overview&lt;/h3&gt;
+&lt;p&gt;Ｔhis is for web-based UI shown as the image. It can connect to multiple drones by their IP address and show status of each drone, such as positon, image, healthy status etc. User can sent commands (takeoff, mission, swarm, hover, landing) to drone directly from the UI. Moreover, a Google map is inserted to show realtime location and trajectory of the drones.&lt;/p&gt;
+&lt;h3 id=&#34;tutorials-and-useful-websites&#34;&gt;Tutorials and useful websites&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://medium.com/husarion-blog/bootstrap-4-ros-creating-a-web-ui-for-your-robot-9a77a8e373f9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bootstrap 4 + ROS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.w3schools.com/bootstrap4/default.asp&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Bootstrap 4 Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;http://robotwebtools.org/tools.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ROBOTWEBTOOLS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://bootswatch.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Theme&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://www.rapidtables.com/web/color/html-color-codes.htmls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;HTML color code&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motion Planning | Yu Zhou</title>
+    <link>/tag/motion-planning/</link>
+      <atom:link href="/tag/motion-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Motion Planning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0800</lastBuildDate>
+    <image>
+      <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Motion Planning</title>
+      <link>/tag/motion-planning/</link>
+    </image>
+    
+    <item>
+      <title>Toward Autonomy of Micro Aerial Vehicles in Unknown Environments</title>
+      <link>/project/toward-autonomy-of-micro-aerial-vehicles-in-unknown-environments/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0800</pubDate>
+      <guid>/project/toward-autonomy-of-micro-aerial-vehicles-in-unknown-environments/</guid>
+      <description>&lt;p&gt;From January 2019, I worked on the “Autonomy of Micro Aerial Vehicles in Unknown Environments” project. The objective is to make MAV system that can navigate autonomously in GPS-denied and obstacle-cluttered environments while avoiding obstacles on the way. Various advanced technologies have been designed, including a stereo visual-inertial state estimation that can handle scenarios without external localization resource, a GPU-based EDF mapping that significantly improves the real-time performance without sacrificing accuracy as well as a model predictive local motion planning with BSCPs solved by PSO, providing increased performance for tasks that require precise and timely maneuver. The results of simulation and real flight testing in both indoor and semi-open scenarios with various tasks have proved the effectiveness of the proposed system for challenging practical applications.&lt;/p&gt;
+&lt;p&gt;This work has resulted in the paper &amp;ldquo;Toward Autonomy of Micro Aerial Vehicles in Unknown and Global Positioning System Denied Environments&amp;rdquo; published in the IEEE Transactions on Industrial Electronics.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/KUKzsnORm-4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Demo&lt;/center&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
