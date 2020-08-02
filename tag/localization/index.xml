@@ -5,7 +5,7 @@
     <link>/tag/localization/</link>
       <atom:link href="/tag/localization/index.xml" rel="self" type="application/rss+xml" />
     <description>Localization</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Localization</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Dog-Drone</title>
       <link>/project/dog-drone/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>/project/dog-drone/</guid>
       <description>&lt;p&gt;From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project.&lt;br&gt;
 The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them.
@@ -41,7 +41,7 @@ have conducted tests of flying multiple drones aggressively in an indoor environ
     <item>
       <title>Unmanned Ground Systems Challenge</title>
       <link>/project/unmanned-ground-systems-challenge/</link>
-      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>/project/unmanned-ground-systems-challenge/</guid>
       <description>&lt;p&gt;Along with 3 other teammates from the 
 &lt;a href=&#34;http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;State Key Laboratory of Robotics&lt;/a&gt;,

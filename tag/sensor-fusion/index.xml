@@ -5,7 +5,7 @@
     <link>/tag/sensor-fusion/</link>
       <atom:link href="/tag/sensor-fusion/index.xml" rel="self" type="application/rss+xml" />
     <description>Sensor Fusion</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Sensor Fusion</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Laser Camera Fusion</title>
       <link>/post/laser-camera-calibration/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/post/laser-camera-calibration/</guid>
       <description>&lt;p&gt;This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems
 to provide laser points with color information from the image for further applications such as segmentation.&lt;/p&gt;
@@ -42,7 +42,7 @@ The calibration procedure and fusion results are shown on Figure 1.&lt;/p&gt;
     <item>
       <title>Error State Kalman Filter</title>
       <link>/post/eskf/</link>
-      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>/post/eskf/</guid>
       <description>&lt;p&gt;The error-state Kalman filter (ESKF) is one of the tools we may use for
 combining IMU with magnetometer data to obtain a robust attitude estimation.

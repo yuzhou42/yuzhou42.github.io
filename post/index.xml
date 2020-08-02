@@ -27,7 +27,7 @@
     <item>
       <title>Robot web-based user interface</title>
       <link>/post/robot_web_ui/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/post/robot_web_ui/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;overview&lt;/h3&gt;
 &lt;p&gt;This was a web-based UI (as shown in the image),  I developed with the purpose of connecting to multiple drones via their  IP address and  reporting back the status of each drone, e.g. position, video feed and health status. The user may send commands (takeoff, mission, swarm, hover, landing) to any connected drone directly from the UI. Google map was inserted to show real time locations and trajectories.&lt;/p&gt;
@@ -50,7 +50,7 @@
     <item>
       <title>Laser Camera Fusion</title>
       <link>/post/laser-camera-calibration/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
       <guid>/post/laser-camera-calibration/</guid>
       <description>&lt;p&gt;This project was to calibrate the translation and rotation matrices between camera and laser coordinate systems
 to provide laser points with color information from the image for further applications such as segmentation.&lt;/p&gt;
@@ -77,7 +77,7 @@ The calibration procedure and fusion results are shown on Figure 1.&lt;/p&gt;
     <item>
       <title>Error State Kalman Filter</title>
       <link>/post/eskf/</link>
-      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>/post/eskf/</guid>
       <description>&lt;p&gt;The error-state Kalman filter (ESKF) is one of the tools we may use for
 combining IMU with magnetometer data to obtain a robust attitude estimation.
@@ -101,7 +101,7 @@ The red line represents the estimation values, and the green is the ground truth
     <item>
       <title>UAV GCS for Agriculture Irrigation</title>
       <link>/post/uav-gcs/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       <guid>/post/uav-gcs/</guid>
       <description>&lt;p&gt;This is a UAV ground station software designed for agriculture irrigation with functions such as information monitoring, UAV parameter setup, sensor calibration, and specific irrigation parameter setup.&lt;/p&gt;
 

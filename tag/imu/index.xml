@@ -5,7 +5,7 @@
     <link>/tag/imu/</link>
       <atom:link href="/tag/imu/index.xml" rel="self" type="application/rss+xml" />
     <description>IMU</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Tue, 01 Mar 2016 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>IMU</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Error State Kalman Filter</title>
       <link>/post/eskf/</link>
-      <pubDate>Tue, 01 Mar 2016 00:00:00 +0800</pubDate>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>/post/eskf/</guid>
       <description>&lt;p&gt;The error-state Kalman filter (ESKF) is one of the tools we may use for
 combining IMU with magnetometer data to obtain a robust attitude estimation.

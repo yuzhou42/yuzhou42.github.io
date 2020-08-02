@@ -5,7 +5,7 @@
     <link>/tag/web-based-ui/</link>
       <atom:link href="/tag/web-based-ui/index.xml" rel="self" type="application/rss+xml" />
     <description>web-based UI</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Thu, 01 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>web-based UI</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Robot web-based user interface</title>
       <link>/post/robot_web_ui/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0800</pubDate>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>/post/robot_web_ui/</guid>
       <description>&lt;h3 id=&#34;overview&#34;&gt;overview&lt;/h3&gt;
 &lt;p&gt;This was a web-based UI (as shown in the image),  I developed with the purpose of connecting to multiple drones via their  IP address and  reporting back the status of each drone, e.g. position, video feed and health status. The user may send commands (takeoff, mission, swarm, hover, landing) to any connected drone directly from the UI. Google map was inserted to show real time locations and trajectories.&lt;/p&gt;

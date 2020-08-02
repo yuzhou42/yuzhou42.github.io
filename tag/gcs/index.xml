@@ -5,7 +5,7 @@
     <link>/tag/gcs/</link>
       <atom:link href="/tag/gcs/index.xml" rel="self" type="application/rss+xml" />
     <description>GCS</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Mon, 01 Dec 2014 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>GCS</title>
@@ -15,7 +15,7 @@
     <item>
       <title>UAV GCS for Agriculture Irrigation</title>
       <link>/post/uav-gcs/</link>
-      <pubDate>Mon, 01 Dec 2014 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       <guid>/post/uav-gcs/</guid>
       <description>&lt;p&gt;This is a UAV ground station software designed for agriculture irrigation with functions such as information monitoring, UAV parameter setup, sensor calibration, and specific irrigation parameter setup.&lt;/p&gt;
 

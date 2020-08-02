@@ -5,7 +5,7 @@
     <link>/tag/dji-sdk/</link>
       <atom:link href="/tag/dji-sdk/index.xml" rel="self" type="application/rss+xml" />
     <description>DJI SDK</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Wed, 15 Mar 2017 00:00:00 +0800</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Wed, 15 Mar 2017 00:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>DJI SDK</title>
@@ -15,7 +15,7 @@
     <item>
       <title>GPS-Denied Vision Control of UAV</title>
       <link>/project/gps-denied-vision-control-of-uav/</link>
-      <pubDate>Wed, 15 Mar 2017 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <guid>/project/gps-denied-vision-control-of-uav/</guid>
       <description>&lt;p&gt;From March 2017 to December 2018, I worked on “Project Micrathene” with a Ph.D. student who focused on controls.
 The objective of this project was to develop an autonomous launch, tracking and landing system for an Unmanned Aerial Vehicle (UAV).

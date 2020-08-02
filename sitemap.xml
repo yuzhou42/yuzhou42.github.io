@@ -154,67 +154,67 @@
   
   <url>
     <loc>/tag/autonomous-robot/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/gpu/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/mapping/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/motion-planning/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/robotics/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/ros/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/toward-autonomy-of-micro-aerial-vehicles-in-unknown-environments/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/uav/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/vio/</loc>
-    <lastmod>2020-06-01T00:00:00+08:00</lastmod>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/robot_web_ui/</loc>
-    <lastmod>2019-08-01T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/web-based-ui/</loc>
-    <lastmod>2019-08-01T00:00:00+08:00</lastmod>
+    <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -248,98 +248,58 @@
   </url>
   
   <url>
-    <loc>/author/mingjie-lao/</loc>
-    <lastmod>2018-06-22T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/visual-target-detection-and-tracking-framework-using-deep-convolutional-neural-networks-for-micro-aerial-vehicles/</loc>
-    <lastmod>2018-06-22T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/wenqi-liu/</loc>
-    <lastmod>2018-06-22T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/xudong-chen/</loc>
-    <lastmod>2018-06-22T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/publication/decentralized-robust-exact-tracking-control-for-2-dof-planar-robot-manipulator/</loc>
-    <lastmod>2018-06-01T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/haoyong-yu/</loc>
-    <lastmod>2018-06-01T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/xinghua-zhang/</loc>
-    <lastmod>2018-06-01T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/author/zhenxing-sun/</loc>
-    <lastmod>2018-06-01T21:44:14+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tag/computer-vision/</loc>
-    <lastmod>2018-05-01T00:00:00+08:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/deep-learning/</loc>
-    <lastmod>2018-05-01T00:00:00+08:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/dog-drone/</loc>
-    <lastmod>2018-05-01T00:00:00+08:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/human-tracking/</loc>
-    <lastmod>2018-05-01T00:00:00+08:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/localization/</loc>
-    <lastmod>2018-05-01T00:00:00+08:00</lastmod>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/dji-sdk/</loc>
-    <lastmod>2017-03-15T00:00:00+08:00</lastmod>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/gps-denied-vision-control-of-uav/</loc>
-    <lastmod>2017-03-15T00:00:00+08:00</lastmod>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/matrice-100/</loc>
-    <lastmod>2017-03-15T00:00:00+08:00</lastmod>
+    <lastmod>2017-03-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/laser/</loc>
-    <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/laser-camera-calibration/</loc>
-    <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/sensor-fusion/</loc>
-    <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -374,52 +334,52 @@
   
   <url>
     <loc>/post/eskf/</loc>
-    <lastmod>2016-03-01T00:00:00+08:00</lastmod>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/imu/</loc>
-    <lastmod>2016-03-01T00:00:00+08:00</lastmod>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/ugv/</loc>
-    <lastmod>2016-03-01T00:00:00+08:00</lastmod>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/unmanned-ground-systems-challenge/</loc>
-    <lastmod>2016-03-01T00:00:00+08:00</lastmod>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/pixhawk/</loc>
-    <lastmod>2015-10-01T00:00:00+08:00</lastmod>
+    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/unmanned-aerial-vehicle-grand-prix/</loc>
-    <lastmod>2015-10-01T00:00:00+08:00</lastmod>
+    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/visual-guidance/</loc>
-    <lastmod>2015-10-01T00:00:00+08:00</lastmod>
+    <lastmod>2015-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/gcs/</loc>
-    <lastmod>2014-12-01T00:00:00+08:00</lastmod>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/qt/</loc>
-    <lastmod>2014-12-01T00:00:00+08:00</lastmod>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/uav-gcs/</loc>
-    <lastmod>2014-12-01T00:00:00+08:00</lastmod>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
