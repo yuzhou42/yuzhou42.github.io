@@ -17,24 +17,18 @@
       <link>/project/dog-drone/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>/project/dog-drone/</guid>
-      <description>&lt;p&gt;From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project.&lt;br&gt;
-The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them.
-My work includes the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Human detection and tracking&lt;/li&gt;
-&lt;li&gt;Trajectory generation&lt;/li&gt;
-&lt;li&gt;System integration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This work has resulted in papers published in the IEEE ICCA and IECON 2018.&lt;/p&gt;
+      <description>&lt;body&gt;&lt;img src=&#34;hardware.png&#34;  width=&#34;600&#34; height=&#34;&#34; &gt;&lt;p style=&#34;text-align:center;&#34;&gt;System Diagram&lt;/p&gt;&lt;/body&gt;
+&lt;/br&gt;
+From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project. The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them. My work includes trajectory generation and system integration.
+&lt;p&gt;This work has resulted in papers published in the IEEE ICCA and IECON 2018. We provide step to step guide about building a drone with snapdragon platform and present an organized documentation that presents in detail, the platform structure as a whole, from hardware to software architecture, including installation and API related applications.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/kSz1FB7mgqU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;center&gt;Dog-Drone demo&lt;/center&gt;
-&lt;p&gt;At this stage, to prove the concept, we are using the off-the-shelf flight platform with a visual odometry integration.
-Right now we have built our drone platform CT-Line due to the limitation of the commercial product and
-have conducted tests of flying multiple drones aggressively in an indoor environment.&lt;/p&gt;
+&lt;/br&gt;
+At previous stage, to prove the concept, we are using the off-the-shelf flight platform with a visual odometry integration. Right now we have built our new drone platform due to the limitation of the commercial product and have conducted tests of flying multiple drones aggressively in an indoor environment. 
 </description>
     </item>
     
@@ -43,49 +37,52 @@ have conducted tests of flying multiple drones aggressively in an indoor environ
       <link>/project/unmanned-ground-systems-challenge/</link>
       <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
       <guid>/project/unmanned-ground-systems-challenge/</guid>
-      <description>&lt;p&gt;Along with 3 other teammates from the 
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;Along with 3 other teammates from the 
 &lt;a href=&#34;http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;State Key Laboratory of Robotics&lt;/a&gt;,
-I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map
-building and localization under GPS signal lost situation.&lt;/p&gt;
-&lt;p&gt;This challenge was held in a real field environment,
-including wild battlefield task execution,
-city battlefield search and investigation, and highland transportation.&lt;/p&gt;
+I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;ugv_1.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 1. Our UGV platform&lt;/center&gt;
 &lt;h3 id=&#34;environment-map&#34;&gt;Environment Map&lt;/h3&gt;
 &lt;p&gt;Built an environment map for non-structured fields with the following steps:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Slide6.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 2. Environment Map BUilding Procedure&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;The laser data was collected from different lasers: single-line, 32-line, and 64-line.
-The data was fused after calibration and having manually filled certain points.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Slide7.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+The data was fused after calibration and having manually filled certain points.
+&lt;img src=&#34;Slide7.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 3. Fuse Laser Data&lt;/center&gt;
-&lt;p&gt;A road plane was fitted with a RANSAC method.
-&lt;img src=&#34;Slide8.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+&lt;/br&gt;
+A road plane was fitted with a RANSAC method.
+&lt;p&gt;&lt;img src=&#34;Slide8.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 4. Point Clouds Segmentation&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;The grid map was built with the help of the 
 &lt;a href=&#34;https://github.com/ANYbotics/grid_map&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;grid_map&lt;/a&gt; package.
 Finally, the road target was extracted through road skeleton extraction from the image generated from the environment map.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Slide9.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 5. Road Target Extraction&lt;/center&gt;
-&lt;p&gt;Thus, we obtained all the perception information needed to drive a car intelligently in a field environment.&lt;/p&gt;
+&lt;/br&gt;
+Thus, we obtained all the perception information needed to drive a car intelligently in a field environment.
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/AUbdU3WGoK8&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;center&gt;**Obstacle Avoidance Demo**&lt;/center&gt;
+&lt;center&gt;Obstacle Avoidance Demo&lt;/center&gt;
 &lt;h3 id=&#34;localization-without-gps&#34;&gt;Localization without GPS&lt;/h3&gt;
 &lt;p&gt;Two methods were conducted to meet the requirements.&lt;/p&gt;
 &lt;h4 id=&#34;1-visual-inertial-odometry&#34;&gt;1. Visual Inertial Odometry&lt;/h4&gt;
 &lt;p&gt;I did this by combining the orb slam with IMU.
 &lt;img src=&#34;Slide10.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 6. Visual Inertial Odometry&lt;/center&gt;
+&lt;/br&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/RRAzWU1_SSE&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+&lt;/br&gt;
 &lt;h4 id=&#34;2-laser-odometry&#34;&gt;2. Laser Odometry&lt;/h4&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;

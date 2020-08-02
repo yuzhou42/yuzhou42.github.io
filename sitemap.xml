@@ -73,7 +73,7 @@
   </url>
   
   <url>
-    <loc>/publication/toward-autonomy-of-micro-aerial-vehicles-in-unknown-and-global-positioning-system-denied-environments/</loc>
+    <loc>/publication/tie_ddrone/</loc>
     <lastmod>2020-06-28T00:00:00+00:00</lastmod>
   </url>
   
@@ -93,7 +93,17 @@
   </url>
   
   <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-18T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/vio-talk/</loc>
+    <lastmod>2020-06-18T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/vio/</loc>
     <lastmod>2020-06-18T13:00:00+00:00</lastmod>
   </url>
   
@@ -108,7 +118,7 @@
   </url>
   
   <url>
-    <loc>/publication/low-cost-camera-based-sense-and-avoid-in-unmanned-aerial-vehicles-sensing-and-control-methods/</loc>
+    <loc>/publication/sense_n_avoid/</loc>
     <lastmod>2020-06-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,22 +198,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/project/toward-autonomy-of-micro-aerial-vehicles-in-unknown-environments/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/tag/uav/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tag/vio/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -238,7 +238,7 @@
   </url>
   
   <url>
-    <loc>/publication/development-of-nano-uav-platform-for-navigation-in-gps-denied-environment-using-snapdragon/</loc>
+    <loc>/publication/snapd/</loc>
     <lastmod>2018-10-22T21:44:14+08:00</lastmod>
   </url>
   
@@ -303,7 +303,7 @@
   </url>
   
   <url>
-    <loc>/publication/a-robust-real-time-vision-based-gps-denied-navigation-system-of-uav/</loc>
+    <loc>/publication/uav_grad/</loc>
     <lastmod>2016-06-22T21:44:14+08:00</lastmod>
   </url>
   

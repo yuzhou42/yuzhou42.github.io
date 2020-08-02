@@ -17,24 +17,18 @@
       <link>/project/dog-drone/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>/project/dog-drone/</guid>
-      <description>&lt;p&gt;From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project.&lt;br&gt;
-The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them.
-My work includes the following:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Human detection and tracking&lt;/li&gt;
-&lt;li&gt;Trajectory generation&lt;/li&gt;
-&lt;li&gt;System integration&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This work has resulted in papers published in the IEEE ICCA and IECON 2018.&lt;/p&gt;
+      <description>&lt;body&gt;&lt;img src=&#34;hardware.png&#34;  width=&#34;600&#34; height=&#34;&#34; &gt;&lt;p style=&#34;text-align:center;&#34;&gt;System Diagram&lt;/p&gt;&lt;/body&gt;
+&lt;/br&gt;
+From March to June 2018, I worked on the proof-of-concept phase of the “Dog-Drone” project. The objective is to immobilize suspicious individuals in an indoor environment by flying multiple drones aggressively around them. My work includes trajectory generation and system integration.
+&lt;p&gt;This work has resulted in papers published in the IEEE ICCA and IECON 2018. We provide step to step guide about building a drone with snapdragon platform and present an organized documentation that presents in detail, the platform structure as a whole, from hardware to software architecture, including installation and API related applications.&lt;/p&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/kSz1FB7mgqU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;center&gt;Dog-Drone demo&lt;/center&gt;
-&lt;p&gt;At this stage, to prove the concept, we are using the off-the-shelf flight platform with a visual odometry integration.
-Right now we have built our drone platform CT-Line due to the limitation of the commercial product and
-have conducted tests of flying multiple drones aggressively in an indoor environment.&lt;/p&gt;
+&lt;/br&gt;
+At previous stage, to prove the concept, we are using the off-the-shelf flight platform with a visual odometry integration. Right now we have built our new drone platform due to the limitation of the commercial product and have conducted tests of flying multiple drones aggressively in an indoor environment. 
 </description>
     </item>
     

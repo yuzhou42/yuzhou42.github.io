@@ -5,12 +5,24 @@
     <link>/tag/vio/</link>
       <atom:link href="/tag/vio/index.xml" rel="self" type="application/rss+xml" />
     <description>VIO</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 Yu Zhou</copyright><lastBuildDate>Thu, 18 Jun 2020 13:00:00 +0000</lastBuildDate>
     <image>
       <url>/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>VIO</title>
       <link>/tag/vio/</link>
     </image>
+    
+    <item>
+      <title>The Front End of SLAM</title>
+      <link>/post/vio-talk/</link>
+      <pubDate>Thu, 18 Jun 2020 13:00:00 +0000</pubDate>
+      <guid>/post/vio-talk/</guid>
+      <description>&lt;!-- &lt;embed src=&#34;SLAM_VIO_Toturial.pdf&#34; width=&#34;500&#34; height=&#34;375&#34;&gt; --&gt;
+&lt;!-- &lt;embed src=&#34;SLAM_VIO_Toturial.pdf&#34; width=&#34;500&#34; height=&#34;375&#34; 
+ type=&#34;application/pdf&#34;&gt; --&gt;
+&lt;p&gt;I recently gave a tutorial talk on the front-end of visual-inertial odometry. Check it out by clicking the pdf label on top of the page!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Toward Autonomy of Micro Aerial Vehicles in Unknown Environments</title>

@@ -25,18 +25,21 @@ and used the PnP method to get the relation between the two coordinates.
 The calibration procedure and fusion results are shown on Figure 1.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;featured1.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 1. Calibration Procedure&lt;center&gt;
+&lt;/br&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/9jwvK2DOzgU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 &lt;center&gt;Video 1. Fusion results&lt;center&gt;
+&lt;/br&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/ihkgXOpipxY&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;center&gt;Video 2. Fusion results&lt;center&gt;</description>
+&lt;center&gt;Video 2. Fusion results&lt;center&gt;
+&lt;/br&gt;</description>
     </item>
     
     <item>
@@ -51,14 +54,18 @@ of the involved covariance matrices.
 The formulation of the ESKF algorithm used for attitude estimation is as follows:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Slide12.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.1. Error-State Kalman Filter 1&lt;/center&gt;
-![This is an image](Slide13.png)
+&lt;/br&gt;
+&lt;p&gt;&lt;img src=&#34;Slide13.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.2. Error-State Kalman Filter 2&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;Below are results of the ESKF for roll, pitch, and yaw angles.
 The red line represents the estimation values, and the green is the ground truth.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.3. Roll&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;&lt;img src=&#34;eskf_2.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.4. Pitch&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;&lt;img src=&#34;eskf_3.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.5. Yaw&lt;/center&gt;</description>
     </item>

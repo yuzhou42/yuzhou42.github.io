@@ -17,9 +17,14 @@
       <link>/project/gps-denied-vision-control-of-uav/</link>
       <pubDate>Wed, 15 Mar 2017 00:00:00 +0000</pubDate>
       <guid>/project/gps-denied-vision-control-of-uav/</guid>
-      <description>&lt;p&gt;From March 2017 to December 2018, I worked on “Project Micrathene” with a Ph.D. student who focused on controls.
-The objective of this project was to develop an autonomous launch, tracking and landing system for an Unmanned Aerial Vehicle (UAV).
-The object to track and land on was a moving ground platform, and everything was to be done without GPS.&lt;/p&gt;
+      <description>&lt;p&gt;From March 2017 to December 2018, I worked on “Project Micrathene” with a Ph.D. student who focused on controls. The objective of this project was to develop an autonomous launch, tracking and landing system for an Unmanned Aerial Vehicle (UAV). The object to track and land on was a moving ground platform, and everything was to be done without GPS.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/cIJGd6TkZRM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;center&gt;Demo Video&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;In this project, vision is used to estimate the pose,
 the translation and rotation relationship, between the UGV and the UAV.
 The pose was used for flight control during different states of the UAV.&lt;/p&gt;
@@ -30,20 +35,14 @@ The pose was used for flight control during different states of the UAV.&lt;/p&g
 &lt;li&gt;NUC onboard computer.&lt;/li&gt;
 &lt;li&gt;Omnidirectional mobility platform&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Communication between the onboard and offboard computer is established over Wi-Fi.&lt;/p&gt;
-&lt;p&gt;The software involves:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ubuntu&lt;/li&gt;
-&lt;li&gt;ROS Kinetic&lt;/li&gt;
-&lt;li&gt;OpenCV&lt;/li&gt;
-&lt;li&gt;DJI SDK&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;img src=&#34;Slide2.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 1. Hardware and Software Platform&lt;/center&gt;
+&lt;/br&gt;
+Communication between the onboard and offboard computer is established over Wi-Fi. The software involves: Ubuntu, ROS Kinetic, OpenCV and DJI SDK.
 &lt;p&gt;A marker was designed to obtain the relative pose between the UAV and the UGV platform.
 There are four coordinate systems: image, camera, marker and UAV.
 The transformation matrix between different coordinate systems is shown on Figure 2.
-n order to control the UAV, the pose between the camera and the marker, which is [R2 t2], has to be calculated with the PnP method.
+In order to control the UAV, the pose between the camera and the marker, which is $[R2\quad t2]$, has to be calculated with the PnP method.
 The pose between the UAV and the moving platform can then be obtained through another coordinate transform.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Slide3.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 2. Transformation matrix&lt;/center&gt;
@@ -62,13 +61,7 @@ including the pose between the moving platform and the UAV, sensor data from DJI
 &lt;/ol&gt;
 &lt;p&gt;&lt;img src=&#34;Slide4.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 3. Software design&lt;/center&gt;
-&lt;p&gt;The final demonstration is shown in the following video:
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;https://www.youtube.com/embed/cIJGd6TkZRM&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-&lt;/p&gt;
-&lt;center&gt;Demo Video&lt;/center&gt;</description>
+</description>
     </item>
     
   </channel>

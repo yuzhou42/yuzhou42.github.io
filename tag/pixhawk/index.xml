@@ -17,7 +17,8 @@
       <link>/project/unmanned-aerial-vehicle-grand-prix/</link>
       <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
       <guid>/project/unmanned-aerial-vehicle-grand-prix/</guid>
-      <description>&lt;p&gt;Along with 4 other teammates from the 
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;
+&lt;p&gt;Along with 4 other teammates from the 
 &lt;a href=&#34;http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;State Key Laboratory of Robotics&lt;/a&gt;,
 I participated in the 3rd International Unmanned Aerial Vehicle Grand Prix,
 held at the end of October 2015.
@@ -27,11 +28,13 @@ both had four markers and one had 4 buckets placed on it.
 The UAV had to transport buckets between the two moving platforms, as shown on Figure 1.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Slide15.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 1. Unmanned Aerial Vehicle Grand Prix&lt;/center&gt;
+&lt;/br&gt;
+&lt;h2 id=&#34;visual-guidance&#34;&gt;Visual guidance&lt;/h2&gt;
 &lt;p&gt;I worked specifically on the visual guidance design.
 Our team finished 2nd out of 20 teams in total.
 The vision-based guidance work can be divided into 2 parts:
 ellipse detection and position estimation.&lt;/p&gt;
-&lt;h4 id=&#34;ellipse-detection&#34;&gt;Ellipse detection&lt;/h4&gt;
+&lt;h3 id=&#34;ellipse-detection&#34;&gt;Ellipse detection&lt;/h3&gt;
 &lt;p&gt;The ellipse detection algorithm is divided into two parts: whole ellipse detection and partial ellipse detection.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -51,7 +54,7 @@ then fitted ellipses for each convex hull,
 while computing the algebraic error between the convex hulls and the fitted ellipses.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h4 id=&#34;position-estimation&#34;&gt;Position estimation&lt;/h4&gt;
+&lt;h3 id=&#34;position-estimation&#34;&gt;Position estimation&lt;/h3&gt;
 &lt;p&gt;Position estimation helped us get the relative position between the circle markers and the UAV,
 that we leveraged to track the circle to navigate the UAV.
 It involved three coordinate frames: world, camera and image.
@@ -61,9 +64,11 @@ We then use the DLT to get the transformation between the two coordinate frames 
 with the Z-axis of the word frame orthogonal to the circle plane.
 Thus, the four points on the world frame are evenly distributed on the circle as the diameter of the circle is known.
 Ellipse detection then yields four corresponding points in the image:
-we can thus estimate the rotation and transformation matrices between the circle markers and the UAV, which we use to control the UAV.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;Slide16.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
+we can thus estimate the rotation and transformation matrices between the circle markers and the UAV, which we use to control the UAV.
+&lt;img src=&#34;Slide16.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig. 2. Detection Results&lt;/center&gt;
+&lt;/br&gt;
+&lt;h1 id=&#34;videos&#34;&gt;Videos&lt;/h1&gt;
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/3368_Q3Q8q0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;

@@ -24,14 +24,18 @@ of the involved covariance matrices.
 The formulation of the ESKF algorithm used for attitude estimation is as follows:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;Slide12.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.1. Error-State Kalman Filter 1&lt;/center&gt;
-![This is an image](Slide13.png)
+&lt;/br&gt;
+&lt;p&gt;&lt;img src=&#34;Slide13.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.2. Error-State Kalman Filter 2&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;Below are results of the ESKF for roll, pitch, and yaw angles.
 The red line represents the estimation values, and the green is the ground truth.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;featured.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.3. Roll&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;&lt;img src=&#34;eskf_2.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.4. Pitch&lt;/center&gt;
+&lt;/br&gt;
 &lt;p&gt;&lt;img src=&#34;eskf_3.png&#34; alt=&#34;This is an image&#34;&gt;&lt;/p&gt;
 &lt;center&gt;Fig.5. Yaw&lt;/center&gt;</description>
     </item>

@@ -27,7 +27,7 @@
   
     
   
-  <meta name="description" content="Along with 3 other teammates from the State Key Laboratory of Robotics, I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation.">
+  <meta name="description" content="The Unmanned Ground Systems Challenge in October 2016 with the task of wild field task execution, search, and transportation. I worked specifically on the environment map building and localization under GPS signal lost situation.">
 
   
   <link rel="alternate" hreflang="en-us" href="/project/unmanned-ground-systems-challenge/">
@@ -281,7 +281,7 @@
   <meta property="og:site_name" content="Yu Zhou">
   <meta property="og:url" content="/project/unmanned-ground-systems-challenge/">
   <meta property="og:title" content="Unmanned Ground Systems Challenge | Yu Zhou">
-  <meta property="og:description" content="Along with 3 other teammates from the State Key Laboratory of Robotics, I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation."><meta property="og:image" content="/project/unmanned-ground-systems-challenge/featured.png">
+  <meta property="og:description" content="The Unmanned Ground Systems Challenge in October 2016 with the task of wild field task execution, search, and transportation. I worked specifically on the environment map building and localization under GPS signal lost situation."><meta property="og:image" content="/project/unmanned-ground-systems-challenge/featured.png">
   <meta property="twitter:image" content="/project/unmanned-ground-systems-challenge/featured.png"><meta property="og:locale" content="en-us">
   
     
@@ -333,7 +333,7 @@
       "url": "/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "Along with 3 other teammates from the State Key Laboratory of Robotics, I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation."
+  "description": "The Unmanned Ground Systems Challenge in October 2016 with the task of wild field task execution, search, and transportation. I worked specifically on the environment map building and localization under GPS signal lost situation."
 }
 </script>
 
@@ -622,7 +622,7 @@
         </ul>
         <nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#overview">Overview</a>
       <ul>
         <li>
           <ul>
@@ -716,6 +716,47 @@
 
 
 
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://www.youtube.com/watch?v=AUbdU3WGoK8" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -723,49 +764,52 @@
 
             <div class="article-container">
               <div class="article-style">
-                <p>Along with 3 other teammates from the 
+                <h1 id="overview">Overview</h1>
+<p>Along with 3 other teammates from the 
 <a href="http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html" target="_blank" rel="noopener">State Key Laboratory of Robotics</a>,
-I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map
-building and localization under GPS signal lost situation.</p>
-<p>This challenge was held in a real field environment,
-including wild battlefield task execution,
-city battlefield search and investigation, and highland transportation.</p>
+I participated in the Unmanned Ground Systems Challenge in October 2016 and worked specifically on the environment map building and localization under GPS signal lost situation.</p>
 <p><img src="ugv_1.png" alt="This is an image"></p>
 <center>Fig. 1. Our UGV platform</center>
 <h3 id="environment-map">Environment Map</h3>
 <p>Built an environment map for non-structured fields with the following steps:</p>
 <p><img src="Slide6.png" alt="This is an image"></p>
 <center>Fig. 2. Environment Map BUilding Procedure</center>
+</br>
 <p>The laser data was collected from different lasers: single-line, 32-line, and 64-line.
-The data was fused after calibration and having manually filled certain points.</p>
-<p><img src="Slide7.png" alt="This is an image"></p>
+The data was fused after calibration and having manually filled certain points.
+<img src="Slide7.png" alt="This is an image"></p>
 <center>Fig. 3. Fuse Laser Data</center>
-<p>A road plane was fitted with a RANSAC method.
-<img src="Slide8.png" alt="This is an image"></p>
+</br>
+A road plane was fitted with a RANSAC method.
+<p><img src="Slide8.png" alt="This is an image"></p>
 <center>Fig. 4. Point Clouds Segmentation</center>
+</br>
 <p>The grid map was built with the help of the 
 <a href="https://github.com/ANYbotics/grid_map" target="_blank" rel="noopener">grid_map</a> package.
 Finally, the road target was extracted through road skeleton extraction from the image generated from the environment map.</p>
 <p><img src="Slide9.png" alt="This is an image"></p>
 <center>Fig. 5. Road Target Extraction</center>
-<p>Thus, we obtained all the perception information needed to drive a car intelligently in a field environment.</p>
+</br>
+Thus, we obtained all the perception information needed to drive a car intelligently in a field environment.
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/AUbdU3WGoK8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
-<center>**Obstacle Avoidance Demo**</center>
+<center>Obstacle Avoidance Demo</center>
 <h3 id="localization-without-gps">Localization without GPS</h3>
 <p>Two methods were conducted to meet the requirements.</p>
 <h4 id="1-visual-inertial-odometry">1. Visual Inertial Odometry</h4>
 <p>I did this by combining the orb slam with IMU.
 <img src="Slide10.png" alt="This is an image"></p>
 <center>Fig. 6. Visual Inertial Odometry</center>
+</br>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/RRAzWU1_SSE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+</br>
 <h4 id="2-laser-odometry">2. Laser Odometry</h4>
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
